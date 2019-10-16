@@ -1,0 +1,32 @@
+{
+  "globals": {
+    MyGlobal:true
+  },
+  "extends" : "airbnb-base/legacy",
+  "env": {
+    "browser": true,
+    "node": false,
+    "es6": false,
+    "commonjs": false,
+    "jquery": true
+  },
+  "plugins": [
+    "dollar-sign",
+    "jquery",
+    "html"
+  ],
+  "settings": {
+    "html/html-extensions": [
+      ".html",
+      ".twig"]
+  },
+  "rules": {
+    "indent": ["error", 4],
+    "func-names": "off",
+    "vars-on-top": "off",
+    "no-use-before-define": ["error", { "functions": false, "classes": true }],
+    "no-param-reassign": ["error", {"props":  false}],
+    "no-plusplus": ["error", { "allowForLoopAfterthoughts": true }],
+    "strict": ["error", "global"]
+  }
+}
