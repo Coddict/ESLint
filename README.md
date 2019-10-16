@@ -1,1 +1,1 @@
-# ESLint
+# javascript/packages/eslint-config-coddict
