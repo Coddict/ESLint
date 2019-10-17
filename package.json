@@ -7,7 +7,7 @@
   "private": false,
   "license":"MIT",
   "main": "index.js",
-  "devDependencies": {
+  "dependencies": {
     "eslint": ">6.1.0",
     "eslint-config-airbnb-base": "^14.0.0",
     "eslint-plugin-dollar-sign": "^1.0.2",
