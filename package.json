@@ -1,3 +1,13 @@
-"peerDependencies": {
-  "eslint": ">=3"
+{
+  "name": "eslint-config-coddict",
+  version": "0.1.2",
+  "author": {
+    "name": "Afif El Charif"
+  },
+  "private": false,
+  "license":"MIT",
+  "main": "index.js",
+  "peerDependencies": {
+    "eslint": ">=3"
+  }
 }
