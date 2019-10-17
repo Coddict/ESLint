@@ -1,7 +1,4 @@
 {
-  "globals": {
-    MyGlobal:true
-  },
   "extends" : "airbnb-base/legacy",
   "env": {
     "browser": true,
