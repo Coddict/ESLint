@@ -1,13 +1,18 @@
 {
   "name": "eslint-config-coddict",
-  "version": "0.1.2",
+  "version": "0.1.4",
   "author": {
     "name": "Afif El Charif"
   },
   "private": false,
   "license":"MIT",
   "main": "index.js",
-  "peerDependencies": {
-    "eslint": ">=3"
+  "devDependencies": {
+    "eslint": ">6.1.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-dollar-sign": "^1.0.2",
+    "eslint-plugin-html": "^6.0.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jquery": "^1.5.1"
   }
 }
