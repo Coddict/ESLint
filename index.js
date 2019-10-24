@@ -2,6 +2,23 @@ module.exports = {
   extends: [
     'eslint-config-airbnb-base'
   ].map(require.resolve),
+  "env": {
+    "browser": true,
+    "node": false,
+    "es6": false,
+    "commonjs": false,
+    "jquery": true
+  },
+  "plugins": [
+    "dollar-sign",
+    "jquery",
+    "html"
+  ],
+  "settings": {
+    "html/html-extensions": [
+      ".html",
+      ".twig"]
+  },
   rules: {
     "indent": ["error", 4],
     "func-names": "off",
