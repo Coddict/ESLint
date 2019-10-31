@@ -47,6 +47,7 @@ module.exports = {
     "rest-spread-spacing": "off",
     "symbol-description": "off",
     "template-curly-spacing": "off",
-    "yield-star-spacing": "off"
+    "yield-star-spacing": "off",
+    "max-len": [2, {"code": 80, "tabWidth": 2, "ignoreUrls": true}]
   }
 };
